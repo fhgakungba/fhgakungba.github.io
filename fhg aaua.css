@@ -2,10 +2,6 @@
 	margin: 0 ;
 box-sizing: border-box;}
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 10px
-}
 
 .container {
   padding: 0 10px;
@@ -85,11 +81,11 @@ padding:20px 5px;  }
 
 .topnav a:hover{transition: 0.4s;
  color: #048e3b;
-  padding: 20px                                                                                                                                                                                                          
+ margin: 5px                                                                                                                                                                                                          
 }
-.topnav a:active{transition: 0.2s;
+.topnav a:active{transition: 0.4s;
 color:#048e3b;
-padding: 5px;}
+margin: 5px;}
 
 .intro-container{
   background:url("images/Fhg-pc-background.png");
@@ -234,88 +230,9 @@ margin: 7px 0px;}
 padding: 5px;
 text-align: center;}
 
-#spacer{height: 70px;
+#spacer{height: 100px;
 	width: 100%;
 }
-
-.outro-head{text-align: center;
-  color: #048e3b;
-font-size: 30px;
-padding: 10px;
-  animation: fadeIn 12s;
-  -webkit-animation: fadeIn 12s;
-  -moz-animation: fadeIn 12s;
-  -o-animation: fadeIn 12s;
-  -ms-animation: fadeIn 12s;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}         
-
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.outro-container{display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;}
-  
-.outro-images{}
-
-.out-img1{flex-grow:5; 
-min-width: 99%;
-height:315px;}
-
-.out-img2{flex-grow:6;
-min-width: 99%;
-height:300px;
-margin: 20px 0px}
-
-@media (min-width:768px){
-  .out-img1{flex-grow:5; 
-min-width: 40%;
-height:315px;}
-
-.out-img2{flex-grow:6;
-min-width: 50%;
-height:300px;
-margin: 20px 0px}
-}
-
-.outro-head1{text-align: center;
-font-size: 50px;
-padding: 10px;
-  animation: fadeIn 12s;
-  -webkit-animation: fadeIn 12s;
-  -moz-animation: fadeIn 12s;
-  -o-animation: fadeIn 12s;
-  -ms-animation: fadeIn 12s;
-}
-
-.outro-head2{text-align: center;
-font-size: 40px;
-padding: 10px;
-  animation: fadeIn 12s;
-  -webkit-animation: fadeIn 12s;
-  -moz-animation: fadeIn 12s;stroke-width: ;
-  -o-animation: fadeIn 12s;
-  -ms-animation: fadeIn 12s;
-}
-
 
 
 #leaders{text-align: center;
@@ -335,9 +252,19 @@ flex-wrap: wrap;}
 
 .column {flex-grow: 1;
   padding: 5px;
+  min-height: 100%;
   width: 30%;
 margin-bottom: 16px;
+
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  min-height: 96%;
+}
+
+
+
 
 hidden {
   display: none;
