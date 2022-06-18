@@ -81,11 +81,10 @@ padding:20px 5px;  }
 
 .topnav a:hover{transition: 0.4s;
  color: #048e3b;
- margin: 5px                                                                                                                                                                                                          
+                                                                                                                                                                                                   
 }
 .topnav a:active{transition: 0.4s;
-color:#048e3b;
-margin: 5px;}
+color:#048e3b;}
 
 .intro-container{
   background:url("images/Fhg-pc-background.png");
@@ -152,7 +151,7 @@ section{min-height:600px ;}
 
 .second-section{min-height: 600px;}
 
-  .third-section{min-height: 600px;
+  .third-section{min-height: 700px;
     background:#048e3b;;}
 
 
@@ -324,16 +323,24 @@ footer{
   
   
     .head{min-width:100px;
-      height: 60px;           
+      height: 40px;           
     text-align: center;
     padding: 5px;
-    font-size: 10px;
+    font-size: 13px;
     flex-grow: 1;}
   
     
   .head-h1{
-    height: 100px;     
+    height: 50px;     
   }  
+  
+@media (max-width:320px){
+
+  .head-h1{
+    height: 100px;     
+  }  }
+  
+
   
   .intro{margin: 30px auto;}
   .intro-head{text-align: center;
