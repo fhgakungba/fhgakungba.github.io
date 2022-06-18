@@ -1,0 +1,437 @@
+*{padding: 0;
+	margin: 0 ;
+box-sizing: border-box;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px
+}
+
+.container {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;}
+
+.button:hover {
+  background-color: #555;
+}
+
+body { font-family:'Poppins', sans-serif; }
+
+
+
+.header{display :flex;
+  flex-wrap:wrap;
+ 
+border-radius: 5px;
+}
+
+.head{min-width:100px;
+  height: 60px;           
+text-align: center;
+font-size: 16px;
+padding: 5px;
+flex-grow: 1;}
+
+.head-h1{display: inline-block;
+  min-width:100px;       
+text-align: center;
+padding: 5px;
+flex-grow: 1;
+  height: 50px;     
+font-size: 16px;}   
+
+.head-h2{display: inline-block;
+  height: 50px; 
+  min-width:100px;
+text-align: center;
+padding: 5px;
+flex-grow: 1;    
+font-size: 12px;
+padding-top: 10px;}
+
+.topnav ul{
+  display: flex;
+padding: 0;
+list-style: none;
+justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;}
+
+.topnav li {flex: 1;}
+
+.topnav a{text-decoration: none;
+color:black;
+ font-weight:bold;
+text-transform: uppercase;
+padding:20px 5px;  }
+
+.topnav a:hover{transition: 0.4s;
+  background: grey;
+  padding: 20px                                                                                                                                                                                                          
+}
+.topnav a:active{transition: 0.2s;
+background-color:grey;
+padding: 5px;}
+
+.intro-container{
+  background: rgba(0, 0, 0, 0.3   ) url("images/Fhg-pc-background.png");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  z-index: -1;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}           
+   
+.intro{flex-grow: 1;
+min-width:20px;
+margin-top: 55px;
+ }
+ 
+.intro-head{text-align: center;
+font-size:3rem;
+padding: 20px;                                                            
+-webkit-animation: fadeIn 5s;}
+                   
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                   
+.intro-text{text-align: center;
+font-size: 2rem;
+padding: 20px;
+
+-webkit-animation: fadeAndscale 5s;
+} 
+
+@keyframes fadeAndscale {
+  0% { opacity: 0; }  
+   100% { opacity: 1; }
+
+} 
+
+.f-box{display:flex;
+  flex-wrap: wrap;
+flex-direction: row-reverse;
+  padding: 150px 40px;}
+
+.f-boxr{display:flex;
+    flex-wrap: wrap;
+  flex-direction: row-reverse;
+    padding: 150px 40px;
+    margin-top: 50px;
+    align-items: center;}
+
+
+.flexbox{}
+section{min-height:600px ;}
+
+.first-section{min-height: 600px;
+  background:#004f6d ;}
+
+.second-section{min-height: 600px;}
+
+  .third-section{min-height: 600px;
+    background:#048e3b;;}
+
+
+.f-box{display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 150px 40px;
+margin: 0 auto;
+align-items: center;}
+
+.f-boxr{display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 150px 40px;
+  margin: 0 auto;
+  align-items: center;}
+
+
+.images-box{flex-grow: 1;
+  min-width: 200px;
+width: 50%;}
+
+.images-box-img{width: 70%;
+height:auto;
+margin-left: 5px;}
+
+.text-box{flex-grow: 1;
+  width:50%;
+  color: #cacdd2;
+text-align: left;
+}
+
+.text-boxr{flex-grow: 1;
+  width:50%;
+  color: #010203;
+text-align:left;
+}
+
+.text-box-head{font-size: 30px;
+  text-align: center;
+font-weight: 400;}
+
+
+
+.mini-flexbox{
+  display: flex;
+ flex-wrap: wrap;
+}    
+         
+.box{ flex-grow:1; 
+  min-width: 50px;
+ text-align: center;
+margin: 10px 5px;}      
+                
+ .box:hover{
+  margin: 15px 10px;
+  transition: 0.4s ease;
+}
+
+.one{flex-grow:8;
+min-width: 98%;}
+
+.two{flex-grow:2;}
+
+.three{flex-grow:1;}
+                             
+.topic{
+  text-align: center;
+margin: 7px 0px;}
+
+
+.text{font-size: 20px;
+padding: 5px;
+text-align: center;}
+
+#spacer{height: 70px;
+	width: 100%;
+}
+
+.outro-head{text-align: center;
+  background: rgb(150,134,241);
+  background: linear-gradient(0deg, rgba(150,134,241,1) 0%, rgba(224,255,255,1) 35%, rgba(255,255,255,1) 100%);
+font-size: 30px;
+padding: 10px;
+  animation: fadeIn 12s;
+  -webkit-animation: fadeIn 12s;
+  -moz-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}         
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.outro-container{display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;}
+  
+.outro-images{}
+
+.out-img1{flex-grow:5; 
+min-width: 99%;
+height:315px;}
+
+.out-img2{flex-grow:6;
+min-width: 99%;
+height:300px;
+margin: 20px 0px}
+
+@media (min-width:768px){
+  .out-img1{flex-grow:5; 
+min-width: 40%;
+height:315px;}
+
+.out-img2{flex-grow:6;
+min-width: 50%;
+height:300px;
+margin: 20px 0px}
+}
+
+.outro-head1{text-align: center;
+font-size: 50px;
+padding: 10px;
+  animation: fadeIn 12s;
+  -webkit-animation: fadeIn 12s;
+  -moz-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+}
+
+.outro-head2{text-align: center;
+font-size: 40px;
+padding: 10px;
+  animation: fadeIn 12s;
+  -webkit-animation: fadeIn 12s;
+  -moz-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+}
+
+
+
+#leaders{text-align: center;
+font-size: 30px;}
+
+.leader-name{font-size: 25px;}
+
+.about-leader{font-size:15px;}
+
+.profile-pic{margin: 0 auto;
+  width: 100%;
+  height: auto}
+
+.row{display: flex;
+  min-width: 100px;
+flex-wrap: wrap;}
+
+.column {flex-grow: 1;
+  padding: 5px;
+  width: 30%;
+margin-bottom: 16px;
+}
+
+hidden {
+  display: none;
+}
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width:100% ;
+    padding-top: 25px;
+    color: #fff;
+}                                            
+
+.footer-content{
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 200px;
+}
+.footer-content h3{flex-grow: 6;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.footer-content p{flex-grow: 6; 
+    margin: 10px auto;
+    line-height: 2rem;
+    font-size: 20px;
+    color: #cacdd2;}
+
+    
+/*mobile veiw code*/
+
+@media (min-width:320px) and (max-width:500px){
+  
+  .intro-container{
+    background: rgba(0, 0, 0, 0.45 ) url("images/Fhg-mobile-bg.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    z-index: -1;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  
+  }    
+  
+  
+    .head{min-width:100px;
+      height: 60px;           
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+    flex-grow: 1;}
+  
+    
+  .head-h1{
+    height: 100px;     
+  }  
+  
+  .intro{margin: 30px auto;}
+  .intro-head{text-align: center;
+  font-size:2rem;
+  padding: 10px;                                                            
+  -webkit-animation: fadeIn 5s;}
+                      
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  }
+                                                
+  .column {
+    width: 55%;
+
+  }
+                    
+  .intro-text{text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 0px;
+  -webkit-animation-: fadeAndscale 7s;
+  }   
+            
+  @keyframes fadeAndscale {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }}
