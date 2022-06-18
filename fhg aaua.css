@@ -37,9 +37,9 @@ body { font-family:'Poppins', sans-serif; }
 
 
 .header{display :flex;
+  background-color: #008fc7;
+  color: #fff;
   flex-wrap:wrap;
- 
-border-radius: 5px;
 }
 
 .head{min-width:100px;
@@ -78,22 +78,22 @@ justify-content: space-between;
 .topnav li {flex: 1;}
 
 .topnav a{text-decoration: none;
-color:black;
+color:white;
  font-weight:bold;
 text-transform: uppercase;
 padding:20px 5px;  }
 
 .topnav a:hover{transition: 0.4s;
-  background: grey;
+ color: #048e3b;
   padding: 20px                                                                                                                                                                                                          
 }
 .topnav a:active{transition: 0.2s;
-background-color:grey;
+color:#048e3b;
 padding: 5px;}
 
 .intro-container{
-  background: rgba(0, 0, 0, 0.3   ) url("images/Fhg-pc-background.png");
-  background-blend-mode: darken;
+  background:url("images/Fhg-pc-background.png");
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
@@ -148,11 +148,11 @@ flex-direction: row-reverse;
     align-items: center;}
 
 
-.flexbox{}
+
 section{min-height:600px ;}
 
 .first-section{min-height: 600px;
-  background:#004f6d ;}
+  background:#008fc7;}
 
 .second-section{min-height: 600px;}
 
@@ -180,19 +180,19 @@ align-items: center;}
   min-width: 200px;
 width: 50%;}
 
-.images-box-img{width: 70%;
+.images-box-img{width: 100%;
 height:auto;
-margin-left: 5px;}
+margin:0 auto;}
 
 .text-box{flex-grow: 1;
   width:50%;
-  color: #cacdd2;
+  color: #fff;
 text-align: left;
 }
 
 .text-boxr{flex-grow: 1;
   width:50%;
-  color: #010203;
+  color: #02638a;
 text-align:left;
 }
 
@@ -209,6 +209,7 @@ font-weight: 400;}
          
 .box{ flex-grow:1; 
   min-width: 50px;
+  color: #004d6b;
  text-align: center;
 margin: 10px 5px;}      
                 
@@ -238,8 +239,7 @@ text-align: center;}
 }
 
 .outro-head{text-align: center;
-  background: rgb(150,134,241);
-  background: linear-gradient(0deg, rgba(150,134,241,1) 0%, rgba(224,255,255,1) 35%, rgba(255,255,255,1) 100%);
+  color: #048e3b;
 font-size: 30px;
 padding: 10px;
   animation: fadeIn 12s;
@@ -311,7 +311,7 @@ font-size: 40px;
 padding: 10px;
   animation: fadeIn 12s;
   -webkit-animation: fadeIn 12s;
-  -moz-animation: fadeIn 12s;
+  -moz-animation: fadeIn 12s;stroke-width: ;
   -o-animation: fadeIn 12s;
   -ms-animation: fadeIn 12s;
 }
@@ -349,7 +349,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background:#008fc7;
     height: auto;
     width:100% ;
     padding-top: 25px;
@@ -381,8 +381,8 @@ footer{
 @media (min-width:320px) and (max-width:500px){
   
   .intro-container{
-    background: rgba(0, 0, 0, 0.45 ) url("images/Fhg-mobile-bg.png");
-    background-blend-mode: darken;
+    background:url("images/Fhg-mobile-bg.png");
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     height: 630px;
