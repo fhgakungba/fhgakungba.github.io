@@ -34,11 +34,11 @@ flex-grow: 1;}
 text-align: center;
 padding: 5px;
 flex-grow: 1;
-  height: 50px;     
+  height: auto;    
 font-size: 16px;}   
 
 .head-h2{display: inline-block;
-  height: 50px; 
+  height: auto;
   min-width:100px;
 text-align: center;
 padding: 5px;
@@ -75,7 +75,7 @@ color:#048e3b;}
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 630px;
+  height: 100vh;
   z-index: -1;
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
@@ -288,7 +288,7 @@ footer{
     
 /*mobile veiw code*/
 
-@media (min-width:320px) and (max-width:500px){
+@media (min-width:0px) and (max-width:500px){
   
   .intro-container{
     background:url("images/Fhg-mobile-bg.png");
@@ -296,7 +296,7 @@ footer{
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 630px;
+    height: 100vh;
     z-index: -1;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -308,7 +308,7 @@ footer{
   
   
     .head{min-width:100px;
-      height: 40px;           
+      height: auto;          
     text-align: center;
     padding: 5px;
     font-size: 13px;
@@ -316,14 +316,14 @@ footer{
   
     
   .head-h1{
-    height: 50px;     
-  }  
+    height: auto;    
+  }  }
   
 @media (max-width:320px){
 
   .head-h1{
-    height: 100px;     
-  }  }
+    height: auto;    
+  }  
   
 
   
